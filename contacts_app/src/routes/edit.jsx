@@ -5,7 +5,7 @@ import {
 } 
 from "react-router-dom";
 
-import { updateContact } from "../contacts";
+import { updateContact } from "../contact";
 
 export async function action({ request, params }) {
   const formData = await request.formData();
